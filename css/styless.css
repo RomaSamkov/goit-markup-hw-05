@@ -183,7 +183,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 .hero-button {
   display: flex;
@@ -280,6 +280,28 @@ body {
 
 /* ---------------Чем мы занимаемся------------- */
 
+.work-item {
+  position: relative;
+}
+
+.work-text {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  padding: 27px 82px;
+  width: 370px;
+  height: 70px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+
+  color: var(--primery-white-color);
+}
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -452,7 +474,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 .address-list {
   margin-bottom: 9px;
@@ -490,7 +512,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 .social-list {
   display: flex;
