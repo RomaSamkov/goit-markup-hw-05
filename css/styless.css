@@ -680,7 +680,7 @@ body {
   line-height: 1.55;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--primery-white-color);
   background: rgba(33, 150, 243, 0.9);
 }
 .examples-link:hover .overlay-text {
